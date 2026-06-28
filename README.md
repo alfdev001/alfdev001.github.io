@@ -77,6 +77,11 @@ Open `index.html` in your browser.
 
 ## 📋 Changelog
 
+### v2.0.0
+* Major changes in styling
+* Updated logo
+* Added animations to hero content
+
 ### v1.2.0
 
 * Added custom personal logo.
