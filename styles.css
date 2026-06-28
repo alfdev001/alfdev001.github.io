@@ -3,6 +3,7 @@
 
 
 body {
+    
     padding: 0;
     margin: 0;
     text-align: center;
@@ -50,6 +51,10 @@ body {
 
 .span6 {
     color: #E31B6D;
+}
+
+.span7 {
+    color: #73DACA;
 }
 
 .first-name {
@@ -272,21 +277,29 @@ p {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    transition: transform 0.3s ease;
 }
+
+.skill-card:hover {
+    transform: scale(1.2)
+}
+
+
 
 .skill-card h3{
     font-family: "JetBrains Mono", monospace;
     font-size: 1.2rem;
     font-weight: 500;
-    color: #E31B6D;
+    
 }
 
 .footer {
-    box-shadow: 0 0 30px gray;
-    border-radius: 30px;
+    background-color: black;
     padding-top: 20px;
-    margin: 300px auto 100px;
-    width: 90vw;
+    padding-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
     }
 
 .social-media {
