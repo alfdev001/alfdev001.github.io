@@ -24,7 +24,7 @@
                 Alf.Dev
             </a>
         </div>
-        <div class="nav-link">
+        <div class="nav-link" id="nav-menu">
             <a>Home</a>
             <a>About Me</a>
             <a>My Works</a>
@@ -32,6 +32,12 @@
         <div class="btn-container contact">
             <a class="btn2">Contact</a>
         </div>
+
+        <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
     </header>
 
     <main>
@@ -183,6 +189,17 @@
  </footer>
 
 
-    
+ 
+ 
+
+<script>
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("nav-menu");
+
+hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+});
+</script>
+
 </body>
 </html>

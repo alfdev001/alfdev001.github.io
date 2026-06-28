@@ -12,6 +12,22 @@ body {
     
 }
 
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background: white;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
 .span1 {
     color: #9ECE6A;
 }
@@ -376,11 +392,41 @@ address {
         left: 0px;
     }
 
-     .navbar {
-    width: 100%;
-    justify-content: space-evenly;
-    height: 60px;
+     .navbar{
+        justify-content: space-between;
+        padding: 20px;
+        height: 70px;
     }
+
+    .hamburger{
+        display: block;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .nav-link {
+        display:none;
+
+        position:absolute;
+        top:70px;
+        left:0;
+        width:100%;
+
+        flex-direction:column;
+        align-items:center;
+        gap:25px;
+
+        background:#111;
+        padding:25px 0;
+    }
+
+    .nav-link.active{
+        display:flex;
+    }
+}
+    
 
     .skillgroup {
         display: grid;
