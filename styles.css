@@ -10,14 +10,20 @@ body {
     
 }
 
+.mainlogo img {
+    height: 50px;
+    width: 120px;
+}
+
 .navbar {
+    z-index: 1;
     box-shadow: 0 0 5px 2px black;
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 45px;
+    height: 80px;
     border-radius: 0 0 10px 10px;
     position: fixed;
     top: 0;
@@ -255,7 +261,10 @@ address {
 
 @media (max-width: 768px) {
 
-    
+    .mainlogo img {
+        height: 40px;
+        width: 80px;
+    }
 
     .contact-address {
         font-size: 0.73rem;
@@ -273,6 +282,7 @@ address {
     gap: 20px;
     width: 100vw;
     justify-content: space-evenly;
+    height: 60px;
     }
 
 
