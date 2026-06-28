@@ -425,7 +425,7 @@ address {
     .nav-link.active{
         display:flex;
     }
-}
+
     
 
     .skillgroup {
@@ -476,4 +476,5 @@ address {
     border-color: gray;
    }
 
-    }
+}
+   

@@ -81,6 +81,7 @@ Open `index.html` in your browser.
 * Major changes in styling.
 * Updated logo.
 * Added animations to hero content.
+* Added a hamburger menu for mobile design.
 
 ### v1.2.0
 
