@@ -77,6 +77,11 @@ Open `index.html` in your browser.
 
 ## 📋 Changelog
 
+### v2.0.1
+* Updated project section.
+* Fixed not working links on navbar.
+* Gave hover animations on project images and all links.
+
 ### v2.0.0
 * Major changes in styling.
 * Updated logo.

@@ -13,6 +13,26 @@ body {
     
 }
 
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    color:#E31B6D;
+    scale: 1.2;
+}
+
+.social a i {
+    transition: all 0.3s ease;
+}
+
+.social a i:hover {
+    color: #565F89;
+    transform: scale(1.1);
+}
+
 .hamburger {
     display: none;
     background: none;
@@ -73,6 +93,7 @@ body {
     text-decoration: none;
     color: white;
     font-weight: 900;
+    font-size: 1.4rem;
 }
 
 .navbar {
@@ -250,6 +271,19 @@ p {
     color:#BB9AF7;
 }
 
+.project-card p {
+    max-width: 600px;
+    margin: 0 auto;
+    }
+
+    .project-card img {
+       transition: transform 0.3s ease;
+       box-shadow: 0 0 20px 5px #BB9AF7
+    }
+
+    .project-card img:hover {
+        transform: scale(1.06);
+    }
 
 
 .skillgroup {
