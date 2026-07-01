@@ -278,7 +278,7 @@ p {
 
     .project-card img {
        transition: transform 0.3s ease;
-       box-shadow: 0 0 20px 5px #BB9AF7
+       box-shadow: 0 0 20px 5px #565F89;
     }
 
     .project-card img:hover {
